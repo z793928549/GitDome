@@ -13,7 +13,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
     public static class Adapter extends FragmentStatePagerAdapter{
 
         public Adapter(FragmentManager fm) {
